@@ -1,6 +1,6 @@
 # base16 color theme for tmux
 
-A tmux base16 theme based on the work of [tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized) and [base16](https://github.com/chriskempson/base16).
+An adaptation of [base16-tmux](/mattdavis90/base16-tmux) which itself is a tmux base16 theme based on the work of [tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized) and [base16](https://github.com/chriskempson/base16).
 
 ## Installation
 These config snippets for the terminal multiplexer tmux should be added to your `~/.tmux.conf` configuration file.
@@ -17,7 +17,7 @@ This color scheme is tested with tmux >= 1.5. tmux 1.1 is reported as not workin
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'mattdavis90/base16-tmux'
+    set -g @plugin 'connrs/base16-tmux'
 
 Hit `prefix + I` to fetch the plugin and source it. The plugin should now be working.
 
